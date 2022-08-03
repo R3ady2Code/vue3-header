@@ -1,8 +1,8 @@
 <template>
 	<div class="bg-white px-12 pt-2 pb-4 hidden sm:block">
-		<nav class="flex w-full xl:w-4/5 justify-between ">
+		<nav class="flex w-full lg:w-4/5 justify-between ">
 			<a v-for=" (category, i) in categories" :key="i"
-				class="text-xs text-center sm:text-sm lg:text-lg xl:text-xl cursor-pointer">{{
+				class="text-[10px] text-center sm:text-xs lg:text-lg xl:text-lg cursor-pointer">{{
 						category
 				}}</a>
 		</nav>
