@@ -1,6 +1,6 @@
 <template>
 	<header class="bg-white px-12 w-full flex items-center justify-between">
-		<h1 class="tracking-widest text-xl">ОЛИМП КЛИНИК</h1>
+		<h1 class="tracking-widest md:text-xl">ОЛИМП КЛИНИК</h1>
 		<SearchInput />
 		<Buttons />
 		<button class="sm:hidden" @click="onClickBurger">

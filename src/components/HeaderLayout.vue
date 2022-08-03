@@ -26,7 +26,7 @@ export default {
 	data: () => ({
 		isVisibleNavigation: true,
 		isVisibleMobileNavigation: false,
-		mouseAtHeader: false //ввел переменную, для дэббага момента, когда при прокрутке скролла курсор находится на header
+		mouseAtHeader: false //ввел переменную, для дэббага момента, когда при скорлле курсор находится на header
 	}),
 	mounted() {
 		window.addEventListener('scroll', this.scrollPage, true)
